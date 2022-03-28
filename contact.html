@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mid {
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    position: fixed;
+    margin: -140px 420px;
+    border-radius: 15px;
+}
+    </style>
+</head>
+
+<body style="background: url(img/gym.jpg);">
+    <div class="left">
+        <img src="img/lg.jpg" alt="">
+        <div class="heading">AkashFitness</div>
+    </div>
+    <div class="mid" style="background-color: rgb(14, 13, 13);">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="package.html">Package</a></li>
+                <li><a href="diet.html">Diet Plans</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- navigation bar -->
+
+    <div class="right">
+        <button class="btn"><a class="btn" href="https:/gmail.com">Email us:</a></button>
+        <button class="btn"><a class="btn" href="location.html">Location:</a></button>
+    </div><!-- some buttons -->
+
+    
+    <div class="form">
+        <h3>Join our Gym with Best Pakages</h3>
+        <form action="php/gym.php" method="post">
+            <div class="finp">
+                <input type="text" name="name" placeholder="Enter Your Name:">
+            </div>
+            <div class="finp">
+                <input type="text" name="gender" placeholder="Enter your Gender:">
+            </div>
+            <div class="finp">
+                <input type="number" name="age" placeholder="Enter your Age:">
+            </div>
+            <div class="finp">
+                <input type="text" name="address" placeholder="Enter Address:">
+            </div>
+            <div class="finp">
+                <input type="email" name="email" placeholder="Enter your Email:">
+            </div>
+            <div class="finp">
+                <input type="text" name="number" placeholder="Enter Number:">
+            </div>
+
+            <button class="btn" type="submit" name="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/package.css">
+</head>
+<style>
+    .cardio {
+    background: url(img/girl.jpg);
+    height: 400px;
+    width: 1190px;
+    margin: 100px 10px;
+    /* border: 1px solid rgb(214, 140, 2); */
+    border-radius: 25px;
+}
+
+.package {
+
+    height: 300px;
+    width: 550px;
+    margin: 50px 525px;
+    padding-top: 45px;
+
+}
+
+.cardio h3 {
+    border: 1px solid black;
+    ;
+    color: rgb(214, 140, 2);
+    /* background-color: black; */
+    border-radius: 25px;
+    margin: 25px 100px;
+    padding: 20px 22px;
+}
+.regular {
+    background: url(img/hd.jpg);
+    height: 400px;
+    width: 1190px;
+    margin: 100px 10px;
+    /* border: 1px solid rgb(214, 140, 2); */
+    border-radius: 25px;
+}
+.regular h3 {
+    border: 1px solid black;
+    ;
+    color: rgb(214, 140, 2);
+    /* background-color: black; */
+    border-radius: 25px;
+    margin: 25px 100px;
+    padding: 20px 22px;
+}
+
+#butn {
+    margin: 8px 220px;
+    padding: 5px 18px;
+}
+.cardion{
+    background-color: rgb(17, 17, 17);
+    margin: -98px 490px;
+    margin-top:90px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.cardion h1{
+    text-align: center;
+    padding: 3px 4px;
+    color: rgb(214, 140, 2);
+    font-family: 'Segoe UI';
+}
+.regularn{
+    background-color: rgb(17, 17, 17);
+    margin: -98px 490px;
+    margin-top:90px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.regularn h1{
+    text-align: center;
+    padding: 3px 4px;
+    color: rgb(214, 140, 2);
+    font-family: 'Segoe UI';
+}
+</style>
+
+<body style="background: url(img/wp.jpg);">
+    <div class="left">
+        <img src="img/lg.jpg" alt="">
+        <div class="heading">AkashFitness</div>
+    </div>
+    <div class="mid">
+        <nav class="navbar" style="background-color: black;border-radius: 10px;">
+            <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="package.html">Package</a></li>
+                <li><a href="diet.html">Diet Plans</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- navigation bar -->
+
+    <!-- <div class="right">
+        <button class="btn"><a class="btn" href="https:/gmail.com">Email us:</a></button>
+        <button class="btn">Call us:</button>
+    </div>some buttons -->
+    <div class="cardion">
+        <h1>Cardio</h1>
+    </div>
+    <div class="cardio">
+        <div class="package">
+        <form action="gym.php" method="post">
+            <h3>* For 1 Month :=: Rs.1,000 only <input type="radio" name="package" class="btn"></h3>
+            <h3>* For 3 Month :=: Rs.2,800 only <input type="radio" name="package" class="btn"></h3>
+            <h3>* For 1 Year :=: Rs.8,000 only <input type="radio" name="package"  class="btn"></h3>
+            <!-- <input type="submit"id="submit" value="Submit"> -->
+            <!-- <button class="btn" id="butn" >Submit Now</button> -->
+        </form>
+        </div>
+    </div>
+
+    <div class="regularn">
+        <h1>Regular</h1>
+    </div>
+    <div class="regular">
+        <div class="package">
+        <form action="gym.php" method="post">
+            <h3>* For 1 Month :=: Rs.500 only <input type="radio" name="package" class="btn"></h3>
+            <h3>* For 3 Month :=: Rs.1,300 only <input type="radio" name="package" class="btn"></h3>
+            <h3>* For 1 Year :=: Rs.5,000 only <input type="radio" name="package"  class="btn"></h3>
+            <!-- <input type="submit"id="submit" value="Submit"> -->
+            <!-- <button class="btn" id="butn" >Submit Now</button> -->
+        </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

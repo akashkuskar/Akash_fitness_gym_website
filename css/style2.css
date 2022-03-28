@@ -1,0 +1,134 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    margin: 0px;
+    padding: 0px;
+    /* background: url("img/bag.jpg"); */
+}
+
+.left {
+    display: inline-block;
+    border-radius: 30px;
+    position: fixed;
+    left: 34px;
+    top: 12px;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* filter: invert(100%); */
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    border: 1px solid  rgb(82, 81, 81);
+    position: fixed;
+    margin: -30px 420px;
+    border-radius: 15px;
+}
+
+.right {
+    display: inline-block;
+    position: fixed;
+    right: 34px;
+    top: 12px;
+    /* border: 2px solid rgb(204, 152, 9); */
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: black;
+    color: orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.btn:hover {
+    
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    /* list-style: none; */
+
+}
+
+.navbar li a {
+    color: orangered;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.navbar li a:hover {
+    color: orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+    .headtxt {
+        width: 580px;
+        margin: 50px 180px;
+        padding: 20px 5px;
+    }
+
+    .headtxt h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 85px;
+        color:white;
+    }
+
+    .today {
+        margin: -184px -8px;
+        padding: 116px 0px;
+
+    }
+
+    .today h1 {
+        margin: 3px 5px;
+        padding: 2px 5px;
+        font-size: 145px;
+        color:white;
+
+    }
+
+
+    .slogan{
+
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        border-radius: 25px;
+        margin: 190px 260px;
+        width: 650px;
+    }
+    .slogan marquee{
+        margin-top: 5px;
+        padding: 2px 3px;
+        font-size: 30px;
+        border-radius: 25px;
+        background-color: rgb(71, 48, 41);
+        color: white;
+    }
+    .heading{
+    color:rgb(214, 140, 2);
+    text-align: center;
+    background-color: black;
+}
+.copyright{
+       
+    background-color: rgb(39, 37, 37);
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+}
+.copyright p{
+    margin: 0px 350px;
+    padding: 45px 3px;
+    color: aliceblue;
+}

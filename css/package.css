@@ -1,0 +1,75 @@
+.cardio {
+    background: url(img/girl.jpg);
+    height: 400px;
+    width: 1190px;
+    margin: 100px 10px;
+    /* border: 1px solid rgb(214, 140, 2); */
+    border-radius: 25px;
+}
+
+.package {
+
+    height: 300px;
+    width: 550px;
+    margin: 50px 525px;
+    padding-top: 45px;
+
+}
+
+.cardio h3 {
+    border: 1px solid black;
+    ;
+    color: rgb(214, 140, 2);
+    /* background-color: black; */
+    border-radius: 25px;
+    margin: 25px 100px;
+    padding: 20px 22px;
+}
+.regular {
+    background: url(img/hd.jpg);
+    height: 400px;
+    width: 1190px;
+    margin: 100px 10px;
+    /* border: 1px solid rgb(214, 140, 2); */
+    border-radius: 25px;
+}
+.regular h3 {
+    border: 1px solid black;
+    ;
+    color: rgb(214, 140, 2);
+    /* background-color: black; */
+    border-radius: 25px;
+    margin: 25px 100px;
+    padding: 20px 22px;
+}
+
+#butn {
+    margin: 8px 220px;
+    padding: 5px 18px;
+}
+.cardion{
+    background-color: rgb(17, 17, 17);
+    margin: -98px 490px;
+    margin-top:90px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.cardion h1{
+    text-align: center;
+    padding: 3px 4px;
+    color: rgb(214, 140, 2);
+    font-family: 'Segoe UI';
+}
+.regularn{
+    background-color: rgb(17, 17, 17);
+    margin: -98px 490px;
+    margin-top:90px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.regularn h1{
+    text-align: center;
+    padding: 3px 4px;
+    color: rgb(214, 140, 2);
+    font-family: 'Segoe UI';
+}
